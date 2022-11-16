@@ -51,6 +51,36 @@ unsigned char *xor_bin(unsigned char * bin1, unsigned char * bin2, int bin_len) 
 	return xor_data;
 }
 
+// how will we know if we're xoring a padding bits or not...should probably keep track of a real size only
+// from real size can easily figure out how many array elements there are from data type size???
+unsigned char *bin_xor_key(unsigned char *bin, int bin_len, unsigned char key) {
+	unsigned char *xored_bin = malloc(sizeof(unsigned char) * bin_len);
+	assert(xored_bin != NULL);
+
+	for (int i = 0; i < bin_len; i++) {
+		xored_bin[i] = bin[i] ^ key;
+	}
+	return xored_bin;
+}
+
+// might be some issues with the very last character depending on padding
+// for the purposes of challenge 3, each character should have been encoded as a 2 symbol long hex sequence, so shouldn't have padding, only explicit or implicit leading zero
+// or weird results from xor.....treat all as real data
+char *bin2AlphaString(unsigned char *binary, int len) {
+	char *str = malloc(sizeof(char) * (len + 1)); //+1 for null terminator
+	assert(str != NULL);
+	str[len] = '\0';
+
+	//data doesn't change, just putting it in proper order....is cast from unsigned char to char undefined if out of range??? I just want to treat the bits as a different type
+	// maybe I should use a union for data punning as the middle man rather than direct cast....more well defined???
+	// is union punning actually defined behaviour???
+
+	for (int i = 0; i < len; i++) {
+		str[len-1-i] = binary[i];
+	}
+	return str;
+}
+
 char *bin2HexString(unsigned char *binary, int len) {
 	// at most the leading 4 bits are padding
 	// double check decoding consistent with encoding
