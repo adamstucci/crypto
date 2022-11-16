@@ -56,6 +56,7 @@ char *bin2HexString(unsigned char *binary, int len) {
 	// double check decoding consistent with encoding
 	int hex_str_len = len *2;
 	unsigned char leading_byte = binary[len-1];
+
 	// if the top four bits are zero, then this part is just padding
 	if (!(leading_byte & TOP_FOUR)) hex_str_len--;
 
@@ -66,11 +67,6 @@ char *bin2HexString(unsigned char *binary, int len) {
 	// starting from least significant in binary so want to start from end of string
 	int j = hex_str_len-1;
 	for (int i = 0; i < len -1; i++) {
-		// think thats right
-		// no this won't work because the length of our string isn't necessarily 2*len
-		// hex_str[hex_str_len -1 -2*i] = bin2sym16(binary[i] & BOT_FOUR); //lower sig
-		// hex_str[hex_str_len -1 -2*i -1] = bin2sym16((binary[i] & TOP_FOUR) >> 4); //higher sig
-
 		hex_str[j--] = bin2sym16(binary[i] & BOT_FOUR); //lower sig
 		hex_str[j--] = bin2sym16((binary[i] & TOP_FOUR) >> 4); //higher sig
 	}
