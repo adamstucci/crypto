@@ -24,7 +24,7 @@ int main(int argc, char **argv) {
 	if (buffer[len-1] == '\n') buffer[len-1] = '\0'; //chomp
 	int bin_len = 0;
 	unsigned char *bin = hex2bin(buffer, &bin_len);
-	printf("%d\n", bin_len);
+	// printf("%d\n", bin_len);
 	//int len2 = strlen(bin);
 	//printf("bin is %d chars long\n", len2);
 	//printf("%d\n", bin[0]);

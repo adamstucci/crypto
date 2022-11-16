@@ -37,17 +37,22 @@ char bin2sym64(unsigned char c) {
 
 unsigned char *hex2bin(char *hex, int *bin_len) {
 	int len = strlen(hex);
-	int new_len = len/2 + 2; //+2 one for extra space, one for null terminator
+	//int new_len = len/2 + 2; //+2 one for extra space, one for null terminator
+	int new_len = len/2 + (len % 2); //exactly how many array elements will be needed
 	unsigned char *new = malloc(sizeof(unsigned char) * new_len); //at most 1 extra wasted byte
 	assert(new != NULL);
 	memset(new, 0, new_len);
-	int i = len -1;
-	int j = 0;
-	int parity = 0;
-	unsigned char curr = 0;
-	while (i >= 0) {
+	//the 'leading' 4 can be all zero but not the other group of 4
+
+	int i = len -1; //least sig character in the hex string
+	int j = 0; //least sig position in the binary array
+	int parity = 0; //when 0 don't move to next byte, when 1 move to next byte
+
+	// going from left to right but storing bytes in flipped order....doesn't really matter as long as decoded in the same way
+	unsigned char curr = 0; //the current thing being looked at in the hex string...not really needed as separate variable
+	while (i >= 0) { //while still processing characters
 		curr = hex[i];
-		curr = sym2num(curr);
+		curr = sym2num(curr); //takes the symbol and gives a number that can be fit in 4 bits
 		//printf("%d\n", curr);
 		//will bit shifting zero do what I want...just make it a ternary
 		new[j] |= (parity == 0 ? curr : curr << 4);//what do you do with the low and high order...technically it doesn't matter...put the low order bits in the low order slot...when grouping endianess screws things up anyway
@@ -55,17 +60,20 @@ unsigned char *hex2bin(char *hex, int *bin_len) {
 		parity = (parity + 1) % 2;
 		i--; //each iteration looking at new word in sequence
 	}
-	if (parity == 1) j++;
-	*bin_len = j;
+	// if (parity == 1) j++;
+	// *bin_len = j;
+	//pretty sure bin_len will just be new_len
+	*bin_len = new_len;
 	return new; //mem zeroed out...no need to explicitly set null terminator
 }
 
-
+//still getting an off by 1 error
 //can't use the null terminator in binary need to be aware of length
 //need code to truncate leadding 0
 //len in number of bytes
 char *bin2six(unsigned char *binary, int len) {
-	int total_bits = len * sizeof(char);
+	//calculating total bits wrong...sizeof is in bytes not bits
+	int total_bits = len * sizeof(char) * 8;
 	int new_len = total_bits/6 + 1; //div by 6 for number of b64 symbols + partial symbol
 	char *new = malloc(sizeof(char) * (new_len + 1));
 	assert(new != NULL);
@@ -129,7 +137,7 @@ char *bin2six(unsigned char *binary, int len) {
 
 //rather than convert to a base64 string...just print char by char...want both options
 void print_six(char *six) {
-	int len = strlen(six);
+	int len = strlen(six); //for some reason going to far, but these should all be zeroed out
 	int i = len-1;
 	while (i >= 0) {
 		putchar(six[i]);
