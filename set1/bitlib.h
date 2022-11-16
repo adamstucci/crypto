@@ -11,4 +11,15 @@ char *bin2SixString(unsigned char * binary, int len);
 char *bin2six(unsigned char *binary, int len);
 void print_six(char *six);
 void print_bin(char *bin);
+unsigned char *xor_bin(unsigned char * bin1, unsigned char * bin2, int bin_len);
+
+/// @brief 
+/// @param binary array of binary bottom 4 bytes of char is less significant then top 4 bytes of char
+/// @param len number of elements in array
+/// @return string in hex 
+char *bin2HexString(unsigned char *binary, int len);
+
+/// @brief chomps the given string in place
+/// @param str 
+void chomp(char *str);
 #endif

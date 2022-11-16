@@ -13,11 +13,23 @@
 #define TOP_TWO 0xc0
 #define BOT_TWO 0x03
 
+void chomp(char *str) {
+	int len = strlen(str);
+	if (str[len-1] == '\n') str[len-1] = '\0'; //chomp
+}
+
 unsigned char sym2num(char c) {
 	if (c >= 'A' && c <= 'Z') return c - 'A' + 10;
 	if (c >= 'a' && c <= 'z') return c - 'a' + 10;
 	if (c >= '0' && c <= '9') return c - '0';
 	return c;
+}
+
+// assume input is a only a 4bit number basically
+char bin2sym16(unsigned char c) {
+	if (c <= 9) return '0' + c;
+	// lowercase letters easier to spot in sea of numbers
+	else return 'a' + c - 10;
 }
 
 char bin2sym64(unsigned char c) {
@@ -27,6 +39,49 @@ char bin2sym64(unsigned char c) {
 	if (c == 62) return '+';
 	if (c == 63) return '/';
 	return c;
+}
+
+// should be equal sized
+unsigned char *xor_bin(unsigned char * bin1, unsigned char * bin2, int bin_len) {
+	unsigned char *xor_data = malloc(sizeof (unsigned char) * bin_len);
+
+	for (int i = 0; i < bin_len; i++) {
+		xor_data[i] = bin1[i] ^ bin2[i];
+	}
+	return xor_data;
+}
+
+char *bin2HexString(unsigned char *binary, int len) {
+	// at most the leading 4 bits are padding
+	// double check decoding consistent with encoding
+	int hex_str_len = len *2;
+	unsigned char leading_byte = binary[len-1];
+	// if the top four bits are zero, then this part is just padding
+	if (!(leading_byte & TOP_FOUR)) hex_str_len--;
+
+	char *hex_str = malloc(sizeof(char) * (hex_str_len + 1)); //+1 for null terminator
+	assert(hex_str != NULL);
+	hex_str[hex_str_len] = '\0';
+
+	// starting from least significant in binary so want to start from end of string
+	int j = hex_str_len-1;
+	for (int i = 0; i < len -1; i++) {
+		// think thats right
+		// no this won't work because the length of our string isn't necessarily 2*len
+		// hex_str[hex_str_len -1 -2*i] = bin2sym16(binary[i] & BOT_FOUR); //lower sig
+		// hex_str[hex_str_len -1 -2*i -1] = bin2sym16((binary[i] & TOP_FOUR) >> 4); //higher sig
+
+		hex_str[j--] = bin2sym16(binary[i] & BOT_FOUR); //lower sig
+		hex_str[j--] = bin2sym16((binary[i] & TOP_FOUR) >> 4); //higher sig
+	}
+
+	//handle the last byte special because depends if the'res padding
+	// doing it out here so don't have to do an if statement each time in the loop...wasted branch
+	hex_str[j--] = bin2sym16(binary[len -1] & BOT_FOUR);
+	// would == 0 or >= 0 be a faster op????
+	if (j >= 0) hex_str[j] = bin2sym16((binary[len-1] & TOP_FOUR) >> 4);
+
+	return hex_str;
 }
 
 unsigned char *hex2bin(char *hex, int *bin_len) {
