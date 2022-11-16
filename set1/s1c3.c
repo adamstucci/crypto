@@ -5,7 +5,7 @@
 #include "bitlib.h"
 #include "stats.h"
 
-#define MAX_LINE
+#define MAX_LINE 1024
 
 
 // for distribution purposes, ignore non alphabetical but decoding will decode properly
@@ -73,8 +73,9 @@ int main(int argc, char const *argv[])
     unsigned char best_key = 0;
 
     // 0 is the identiy so may as well start from 1
-    // 
-    for (unsigned char key = 1; key <= 0xFF; key++) {
+    // if used unsigned char...wraps around and keeps looping
+    for (unsigned int key = 1; key <= 0xFF; key++) {
+        printf("testing key: %d\n", key);
         unsigned char *decoded_binary = bin_xor_key(binary, bin_len, key);
         char *decoded_str = bin2AlphaString(decoded_binary, bin_len);
 
@@ -91,6 +92,8 @@ int main(int argc, char const *argv[])
         free(decoded_binary);
         free(decoded_str);
     }
+
+    destroy_dist(letter_distribution);
 
     //assuming we found a best key and best error that was different to starting
 
