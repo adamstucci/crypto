@@ -3,6 +3,8 @@
 #include <string.h>
 #include <assert.h>
 
+#include "bitlib.h" //for intellisense though maybe not needed
+
 //my masks were wrong
 #define TOP_FOUR 0xf0
 #define BOT_FOUR 0x0f
@@ -71,6 +73,25 @@ unsigned char *hex2bin(char *hex, int *bin_len) {
 //can't use the null terminator in binary need to be aware of length
 //need code to truncate leadding 0
 //len in number of bytes
+// is there an easy way to know how many symbols I'll need...would need to know how it's divisible by 6 and what would be padding
+//padding must be in last array element
+// if perfectly divisible by 6 then padding could only be in the top 6 bits of the last.. as if there was more padding
+// then the whole byt could be removed....if the whole byte is zero then the bottom two bits must be for an actual symbol from before
+// if the top 4 bits from the other one isn't an an actual symbol then a leading zero was inputted to generate the extra one
+// or those top 4 are padding in which case an extra one wasn't needed
+// man these cases are messy
+// need to actually prove they are correct
+
+// if not purely divisible by 6....hard to actually know unless our stray bits that aren't in a perfect 6 are zero or not
+// needs to be determined at runtime
+// only way to create the array ahead of time is to know the bits
+// only want to do this if faster then reverse the array
+// only want to reverse the array so i can easily print with c built ins
+// but want to do most of the stuff in binary anyway
+// should i even have this sort of twostring or just define my own print on the binary data that goes character by character
+// tostring would be useful but if using my own special print anyway may as well just operate on binary
+// want a to string that behaves like the C string
+
 char *bin2six(unsigned char *binary, int len) {
 	//calculating total bits wrong...sizeof is in bytes not bits
 	int total_bits = len * sizeof(char) * 8;
@@ -133,6 +154,22 @@ char *bin2six(unsigned char *binary, int len) {
 		state = (state + 1) % 4;
 	}
 	return new;
+}
+
+char *bin2SixString(unsigned char * binary, int len) {
+	//reverse the string...a  bit of a hack because extra work but to lazy right now and want the utility
+	char *reversed_string = bin2six(binary, len);
+	int six_len = strlen(reversed_string);
+	char *six_string = malloc(sizeof(char) * (six_len + 1)); //+1 for null terminator
+	assert(six_string != NULL);
+	six_string[six_len] = '\0';
+
+	for (int i = 0; i < six_len; i++) {
+		six_string[i] = reversed_string[six_len -i -1];
+	}
+
+	free(reversed_string);
+	return six_string;
 }
 
 //rather than convert to a base64 string...just print char by char...want both options

@@ -7,7 +7,7 @@
 /// @return binary representation of hex value with least sig character at front and most sig character towards end...beware of padding
 unsigned char *hex2bin(char *hex, int *bin_len);
 
-
+char *bin2SixString(unsigned char * binary, int len);
 char *bin2six(unsigned char *binary, int len);
 void print_six(char *six);
 void print_bin(char *bin);

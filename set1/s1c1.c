@@ -30,7 +30,9 @@ int main(int argc, char **argv) {
 	//printf("%d\n", bin[0]);
 	//print_bin(bin);
 	//printf("\n");
-	char *six = bin2six(bin, bin_len);
-	print_six(six);
-	printf("\n");
+	// char *six = bin2six(bin, bin_len);
+	// print_six(six);
+	// printf("\n");
+	char *six = bin2SixString(bin, bin_len);
+	printf("%s\n", six);
 }
