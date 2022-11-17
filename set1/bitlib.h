@@ -8,7 +8,7 @@
 unsigned char *hex2bin(char *hex, int *bin_len);
 
 char *bin2SixString(unsigned char * binary, int len);
-char *bin2six(unsigned char *binary, int len);
+// char *bin2six(unsigned char *binary, int len);
 void print_six(char *six);
 void print_bin(char *bin);
 unsigned char *xor_bin(unsigned char * bin1, unsigned char * bin2, int bin_len);
