@@ -2,12 +2,9 @@
 #include <assert.h>
 #include <math.h>
 #include <string.h>
+#include <ctype.h>
 
-struct distribution {
-    unsigned int *frequencies; //counting occurences...don' need neg
-    unsigned int numSymbols; //won't be negative
-    unsigned int totalObservations; //for computing percentages
-};
+#include "_stats.h"
 
 struct distribution *new_empty_dist(unsigned int numSymbols) {
     struct distribution *new = malloc(sizeof(struct distribution));
@@ -103,3 +100,19 @@ double mean_absolute_error(struct distribution *dist1, struct distribution *dist
 // double mean_error(struct distribution *dist1, struct distribution *dist2, double (*error_func)(int a, int b)) {
 
 // }
+
+// might want to make this separate from the adt and put in a separate file
+// for distribution purposes, ignore non alphabetical but decoding will decode properly
+struct distribution *generate_letter_distribution(char *str) {
+    struct distribution *dist = new_empty_dist(26);
+
+    for (unsigned int i = 0; str[i] != '\0'; i++) {
+        //only count character if alphabetic
+        if (isalpha(str[i])) {
+            unsigned int symbol = str[i] >= 'A' && str[i] <= 'Z' ? str[i] - 'A' : str[i] - 'a';
+            add_observation(dist, symbol);
+        }
+    }
+
+    return dist;
+}
