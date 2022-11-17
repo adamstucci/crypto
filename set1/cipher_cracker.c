@@ -4,7 +4,7 @@
 #include "stats.h"
 #include "_stats.h" //a bit of a hack so i can create global static struct...otherwise have to always call method
 
-static struct distribution letter_distribution = {.numSymbols = 26,
+struct distribution letter_distribution = {.numSymbols = 26,
                                                   .frequencies = (unsigned int[]){
                                                     8200, //a = 8.2% 8.2*1000 = 8200..adding extra precision where perhaps not specified
                                                     1500, //b
@@ -37,7 +37,7 @@ static struct distribution letter_distribution = {.numSymbols = 26,
                                                 };
 
 
-char *crack_xor(unsigned char *binary, int bin_len) {
+char *crack_xor(unsigned char *binary, int bin_len, unsigned char *ret_best_key) {
     double best_error = 110; //normalised mean error can't exceed 100
     unsigned char best_key = 0;
 
@@ -45,7 +45,7 @@ char *crack_xor(unsigned char *binary, int bin_len) {
     // if used unsigned char...wraps around and keeps looping
     for (unsigned int key = 1; key <= 0xFF; key++) {
         // printf("testing key: %d\n", key);
-        unsigned char *decoded_binary = bin_xor_key(binary, bin_len, key);
+        unsigned char *decoded_binary = bin_xor_key(binary, bin_len, key, 0);
         char *decoded_str = bin2AlphaString(decoded_binary, bin_len);
 
         struct distribution *decoded_dist = generate_letter_distribution(decoded_str);
@@ -65,10 +65,12 @@ char *crack_xor(unsigned char *binary, int bin_len) {
 
     //assuming we found a best key and best error that was different to starting
 
-    unsigned char *decoded_binary = bin_xor_key(binary, bin_len, best_key);
+    unsigned char *decoded_binary = bin_xor_key(binary, bin_len, best_key, 0);
     char *decoded_str = bin2AlphaString(decoded_binary, bin_len);
 
-    free(decoded_binary);
+    // free(decoded_binary);
+
+    *ret_best_key = best_key;
 
     return decoded_str;
 }

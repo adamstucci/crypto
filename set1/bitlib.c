@@ -53,8 +53,8 @@ unsigned char *xor_bin(unsigned char * bin1, unsigned char * bin2, int bin_len) 
 
 // how will we know if we're xoring a padding bits or not...should probably keep track of a real size only
 // from real size can easily figure out how many array elements there are from data type size???
-unsigned char *bin_xor_key(unsigned char *bin, int bin_len, unsigned char key) {
-	unsigned char *xored_bin = malloc(sizeof(unsigned char) * bin_len);
+unsigned char *bin_xor_key(unsigned char *bin, int bin_len, unsigned char key, char in_place) {
+	unsigned char *xored_bin = in_place ? bin : malloc(sizeof(unsigned char) * bin_len);
 	assert(xored_bin != NULL);
 
 	for (int i = 0; i < bin_len; i++) {

@@ -23,7 +23,8 @@ int main(int argc, char const *argv[])
     int bin_len;
     unsigned char *binary = hex2bin(buffer, &bin_len);
 
-    char *decrypted = crack_xor(binary, bin_len);
+    unsigned char key;
+    char *decrypted = crack_xor(binary, bin_len, &key);
 
     printf("%s\n", decrypted);
 

@@ -21,12 +21,14 @@ int main(int argc, char const *argv[])
     // printf("key is %hhu\n", key);
 
     int bin_len = strlen(buffer);
-    unsigned char* encrypted_binary = bin_xor_key((unsigned char *) buffer, bin_len, key); //returns new encrypted binary
+    unsigned char* encrypted_binary = bin_xor_key((unsigned char *) buffer, bin_len, key, 1); //returns new encrypted binary
 
     //this won't work properly because my binary library expects least significant at the front...I should make it consistent with c strings
     // char *encrypted_hex_str = bin2HexString
 
-    char *decrypted_str = crack_xor(encrypted_binary, bin_len);
+    unsigned char found_key;
+
+    char *decrypted_str = crack_xor(encrypted_binary, bin_len, &found_key);
 
     printf("most likely decryption: %s\n", decrypted_str);
     

@@ -23,6 +23,6 @@ char *bin2HexString(unsigned char *binary, int len);
 /// @param str 
 void chomp(char *str);
 
-unsigned char *bin_xor_key(unsigned char *bin, int bin_len, unsigned char key);
+unsigned char *bin_xor_key(unsigned char *bin, int bin_len, unsigned char key, char in_place);
 char *bin2AlphaString(unsigned char *binary, int len);
 #endif
