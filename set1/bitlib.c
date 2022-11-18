@@ -15,7 +15,8 @@
 
 void chomp(char *str) {
 	int len = strlen(str);
-	if (str[len-1] == '\n') str[len-1] = '\0'; //chomp
+	if (len -1 >= 0 && str[len-1] == '\n' || str[len-1] == '\r') str[len-1] = '\0'; //chomp
+	if (len -2 >= 0 && str[len-2] == '\n' || str[len-2] == '\r') str[len-2] = '\0'; //chomp...windows support
 }
 
 char *transform_break(char *str) {

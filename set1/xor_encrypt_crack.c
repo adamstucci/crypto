@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
 
     unsigned char found_key;
     double error;
-    char *decrypted_str = crack_xor(encrypted_binary, bin_len, &found_key, &error);
+    char *decrypted_str = crack_xor(encrypted_binary, bin_len, normalised_rmse, &found_key, &error, 0);
 
     printf("most likely decryption: %s\n", decrypted_str);
     

@@ -25,8 +25,9 @@ int main(int argc, char const *argv[])
 
     unsigned char key;
     double error;
-    char *decrypted = crack_xor(binary, bin_len, &key, &error);
+    char *decrypted = crack_xor(binary, bin_len, normalised_rmse, &key, &error, argc > 1); //if argc > 1..log
 
+    chomp(decrypted); //once decrypted...may have a new line...should we chomp before generating distribution???
     printf("%s\n", decrypted);
 
 

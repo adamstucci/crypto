@@ -28,14 +28,11 @@ int main(int argc, char const *argv[])
         unsigned char curr_key;
         double local_error;
         unsigned char *binary = hex2bin(buffer, &bin_len);
-        char *curr_decrypt = crack_xor(binary, bin_len, &curr_key, &local_error);
-        // unsigned char *decrypt_binary = bin_xor_key(binary, bin_len, 5, 0);
-        // char *curr_decrypt = bin2AlphaString(decrypt_binary, bin_len);
-        // free(decrypt_binary);
+        char *curr_decrypt = crack_xor(binary, bin_len, normalised_rmse, &curr_key, &local_error, 0);
         struct distribution *curr_dist = generate_letter_distribution(curr_decrypt);
-        // double curr_error = normalised_mean_absolute_error(&letter_distribution, curr_dist);
         double curr_error = normalised_rmse(&letter_distribution, curr_dist);
 
+        chomp(curr_decrypt);
         printf("key: %hhu local error: %f global error: %f decryption: %s\n", curr_key, local_error, curr_error, transform_break(curr_decrypt));
 
         if (curr_error < best_error) {
