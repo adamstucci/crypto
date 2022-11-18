@@ -26,13 +26,17 @@ int main(int argc, char const *argv[])
         // a bit wasteful because our crack function already created distributions we just freed
         int bin_len = 0;
         unsigned char curr_key;
+        double local_error;
         unsigned char *binary = hex2bin(buffer, &bin_len);
-        unsigned char *decrypt_binary = bin_xor_key(binary, bin_len, 5, 0);
-        char *curr_decrypt = bin2AlphaString(decrypt_binary, bin_len);
-        free(decrypt_binary);
-        // char *curr_decrypt = crack_xor(binary, bin_len, &curr_key);
+        char *curr_decrypt = crack_xor(binary, bin_len, &curr_key, &local_error);
+        // unsigned char *decrypt_binary = bin_xor_key(binary, bin_len, 5, 0);
+        // char *curr_decrypt = bin2AlphaString(decrypt_binary, bin_len);
+        // free(decrypt_binary);
         struct distribution *curr_dist = generate_letter_distribution(curr_decrypt);
-        double curr_error = normalised_mean_absolute_error(&letter_distribution, curr_dist);
+        // double curr_error = normalised_mean_absolute_error(&letter_distribution, curr_dist);
+        double curr_error = normalised_rmse(&letter_distribution, curr_dist);
+
+        printf("key: %hhu local error: %f global error: %f decryption: %s\n", curr_key, local_error, curr_error, transform_break(curr_decrypt));
 
         if (curr_error < best_error) {
             best_error = curr_error;
@@ -48,7 +52,8 @@ int main(int argc, char const *argv[])
         free(binary);
     }
 
-    printf("%s\n", best_decrypt);
+    printf("answer: key: %hhu error: %f decryption: %s\n", best_key, best_error, transform_break(best_decrypt));
+    // printf("%s\n", best_decrypt);
     // printf("jsdkjsdkjkdjkjskdj\n");
     // printf("%hhu\n", best_key);
     // printf("key: %hhu %s\n", best_key, best_decrypt);

@@ -24,7 +24,8 @@ int main(int argc, char const *argv[])
     unsigned char *binary = hex2bin(buffer, &bin_len);
 
     unsigned char key;
-    char *decrypted = crack_xor(binary, bin_len, &key);
+    double error;
+    char *decrypted = crack_xor(binary, bin_len, &key, &error);
 
     printf("%s\n", decrypted);
 

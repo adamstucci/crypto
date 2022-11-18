@@ -1,0 +1,328 @@
+key: 67 local error: 0.104990 global error: 0.104990 decryption: Mu´nv	KQ
+key: 80 local error: 0.077479 global error: 0.077479 decryption: cTM±tßlHQJ
+key: 73 local error: 0.078626 global error: 0.078626 decryption: 	®nºUYJTHzBW
+key: 115 local error: 0.088878 global error: 0.088878 decryption: 67xdn/hRG]qoI}ù
+key: 76 local error: 0.088013 global error: 0.088013 decryption: nMGK£mZy§ot	cd`Tz®izd
+key: 104 local error: 0.089403 global error: 0.089403 decryption: lS-Fj
+key: 112 local error: 0.077338 global error: 0.077338 decryption: (nxYQ2rvM
+key: 81 local error: 0.082243 global error: 0.082243 decryption: ªZexhFBrVBnEkB∏ºNrR\TwG
+key: 79 local error: 0.079843 global error: 0.079843 decryption: CDzoxuJW°ZMxlMuGXQT
+key: 74 local error: 0.080715 global error: 0.080715 decryption: FtY¢HxAA¶C|onqÆgWLDjtPF,•
+key: 19 local error: 0.087595 global error: 0.087595 decryption: ÚJUYK9yCT
+key: 86 local error: 0.095070 global error: 0.095070 decryption: ∫ºvXfS_XAsVoªÒb|ªgFWni©*πIG
+key: 116 local error: 0.085125 global error: 0.085125 decryption: uD PWhyX5Öqq
+key: 74 local error: 0.071830 global error: 0.071830 decryption: OªerMj†aS®
+key: 94 local error: 0.070000 global error: 0.070000 decryption: SIyq\Xg\Hc[T\EAOnΩ#lEAmJUE
+key: 104 local error: 0.080308 global error: 0.080308 decryption: c'ogowÅDHfw»6#OF8Hs5!YxåA DxoX
+key: 127 local error: 0.083716 global error: 0.083716 decryption: ouN7wp]
+key: 114 local error: 0.087211 global error: 0.087211 decryption: xköN*2xpIaQ7
+key: 72 local error: 0.093456 global error: 0.093456 decryption: Dd£\FG0YUCOO®VºsNNOpziÆ±
+key: 93 local error: 0.074010 global error: 0.074010 decryption: T∫≥iDPºhAjgFvWN<zeczOODB
+key: 72 local error: 0.084565 global error: 0.084565 decryption: GNEA≥elJdætqDcRzORyª}K¥¢
+key: 88 local error: 0.065143 global error: 0.065143 decryption: oEaJN]
+key: 89 local error: 0.117669 global error: 0.117669 decryption: PYøgOGL™
+key: 96 local error: 0.087657 global error: 0.087657 decryption: Iavv6=JWJ
+key: 90 local error: 0.079733 global error: 0.079733 decryption: æJymZYYpDuqse∑
+key: 72 local error: 0.076400 global error: 0.076400 decryption: eENPhzybyEWawGmkchK5^Hª
+key: 124 local error: 0.078921 global error: 0.078921 decryption: PX-)îYKtEf
+key: 65 local error: 0.098148 global error: 0.098148 decryption: yEEgo≠v`leaQ+x¶KNx≤FM
+key: 89 local error: 0.077479 global error: 0.077479 decryption: ætDFIa^
+key: 66 local error: 0.097242 global error: 0.097242 decryption: £sH´EVx3QUkoBRÊH]
+key: 88 local error: 0.076698 global error: 0.076698 decryption: tN\lwZ
+key: 76 local error: 0.087592 global error: 0.087592 decryption: ØTZ¥GHrJe"kQYcbY°‰SooQP
+key: 86 local error: 0.074252 global error: 0.074252 decryption: VK∂hANOzPHkM
+key: 81 local error: 0.088868 global error: 0.088868 decryption: c∏SHcHRm	HBSK\J	tªE]xXv˚ª≥m
+key: 91 local error: 0.068803 global error: 0.068803 decryption: amma(ui±dU^S{hwcqBrv
+key: 87 local error: 0.071404 global error: 0.071404 decryption: OSFCTH
+key: 95 local error: 0.099503 global error: 0.099503 decryption: ~≠§zTq\JA(ze`Q
+key: 72 local error: 0.078459 global error: 0.078459 decryption: BrtZiq4Zrc\‡xsAØSlUFhfRz
+key: 69 local error: 0.085169 global error: 0.085169 decryption: ^ejRfnoQX-Wµy
+key: 67 local error: 0.093641 global error: 0.093641 decryption: r¶crU≠PY	gRo¨Ka≥v•>yCWle
+key: 113 local error: 0.107549 global error: 0.107549 decryption: qYä#PuÜ
+key: 86 local error: 0.073144 global error: 0.073144 decryption: B†gyVXE%µ≤YwHM]XAVYoIASCSV
+key: 123 local error: 0.072225 global error: 0.072225 decryption: KecI,lò:UyTs
+key: 78 local error: 0.079561 global error: 0.079561 decryption: |ßxAuFtÎSfjlanD	Ky¢¢wcIEv
+key: 64 local error: 0.094825 global error: 0.094825 decryption: G£lXM∫	*VgaUSjh
+key: 108 local error: 0.074823 global error: 0.074823 decryption: APOfr6\c
+key: 88 local error: 0.087422 global error: 0.087422 decryption: ∑z¢yJiCI
+key: 100 local error: 0.074937 global error: 0.074937 decryption: PÉóRChlekK0+kxzG8fF
+key: 94 local error: 0.084621 global error: 0.084621 decryption: LDgSeRTx˘∫™fyFKc
+key: 47 local error: 0.099947 global error: 0.099947 decryption: œrnb’o\
+key: 86 local error: 0.103899 global error: 0.103899 decryption: )lEÆ\UthG!∑QOZXgIe£•øcu$
+key: 64 local error: 0.074400 global error: 0.074400 decryption: A\ZrjMxWWSNX]GdLlY¨Æ5KZwHA
+key: 69 local error: 0.093898 global error: 0.093898 decryption: SDi†FQÌcKb°|WyÂçYwX
+key: 125 local error: 0.081769 global error: 0.081769 decryption: vih,RE%s3W_
+key: 88 local error: 0.078541 global error: 0.078541 decryption: ≥sH jrZAuTnU
+key: 76 local error: 0.080629 global error: 0.080629 decryption: LfrDzWG¨KrlPZ
+key: 85 local error: 0.096297 global error: 0.096297 decryption: m≥iIeOTß<egGAkOµDu¸øß_Lx\
+key: 77 local error: 0.095070 global error: 0.095070 decryption: 0YGXcπNDEp†S≠
+key: 117 local error: 0.059180 global error: 0.059180 decryption: yThãebwt cAdCPZJsÇG2fDfÄX}OAb
+key: 74 local error: 0.074414 global error: 0.074414 decryption: Kw	uvJtbIAWt§R"nnTEGx}ta
+key: 67 local error: 0.097676 global error: 0.097676 decryption: nØPOMdGÈTBOJDau*RLa∑‚¥
+key: 92 local error: 0.089228 global error: 0.089228 decryption: H	rwhB
+key: 95 local error: 0.082963 global error: 0.082963 decryption: htbj#ZKtπcH¶rtLfUnt¶uDb
+key: 67 local error: 0.084237 global error: 0.084237 decryption: eOßIcqlYswjhraE„X•ynb
+key: 82 local error: 0.093953 global error: 0.093953 decryption: N\K°M*v™\oL≤trfyBdtmBCº	\F
+key: 65 local error: 0.091526 global error: 0.091526 decryption: NjIY[4o´OBrcØiKZejtuS
+key: 85 local error: 0.073699 global error: 0.073699 decryption: l\iI∏fNsrBjFG∑\ˆndTyJRi
+key: 73 local error: 0.097537 global error: 0.097537 decryption: Q±dN´\BruR
+key: 66 local error: 0.093771 global error: 0.093771 decryption: Hba
+key: 87 local error: 0.094325 global error: 0.094325 decryption: hwUk≥\Ln≠CV{m¨XzFDOyk
+key: 65 local error: 0.087352 global error: 0.087352 decryption: ¢•Xv7iiGTzTognHàvCDib%s
+key: 91 local error: 0.095995 global error: 0.095995 decryption: ZtWnm∑YN/FIa=FToSea
+key: 98 local error: 0.077653 global error: 0.077653 decryption:  tGOcâhH$A
+key: 92 local error: 0.088435 global error: 0.088435 decryption: HBnjZe^XµNZR
+key: 89 local error: 0.072357 global error: 0.072357 decryption: Gi_MX9RmwNI
+key: 82 local error: 0.088978 global error: 0.088978 decryption: ccwCµ=\Lt£kMdiGNczM¶
+key: 64 local error: 0.086379 global error: 0.086379 decryption: ØeMOuExb©¥Qfs@gmInAxgπ©N
+key: 92 local error: 0.081621 global error: 0.081621 decryption: UeJDlgLU
+key: 91 local error: 0.077251 global error: 0.077251 decryption: EPPDdfTªRTÛykSBjji
+key: 82 local error: 0.089000 global error: 0.089000 decryption: _ixuLopQ$
+key: 74 local error: 0.092348 global error: 0.092348 decryption:  æizr]Óyns
+key: 21 local error: 0.093766 global error: 0.093766 decryption: U%AZ*D
+key: 96 local error: 0.070360 global error: 0.070360 decryption: zM:cúnLdX &DNK>u(pxEãOH?zAobA!
+key: 82 local error: 0.090402 global error: 0.090402 decryption: @qªSpzOºøiÚdRjt
+key: 93 local error: 0.082320 global error: 0.082320 decryption: waHPfKj
+key: 78 local error: 0.063010 global error: 0.063010 decryption: MlfOkboT4•PJe
+key: 124 local error: 0.070465 global error: 0.070465 decryption: z(VTxe*IrUWèÇ NoFVkgFB22M}DiUü
+key: 86 local error: 0.113219 global error: 0.113219 decryption: _πr≥•tmBkXdi±∏k\MFo
+key: 79 local error: 0.100180 global error: 0.100180 decryption: P°Ev\rdL?WX?jm∫LTVf•bQ
+key: 85 local error: 0.057192 global error: 0.057192 decryption: ≤rL`E[idtNvDoo
+key: 91 local error: 0.086510 global error: 0.086510 decryption: OU•ªtTFnaGJuBRxXr∑EQæwØ
+key: 88 local error: 0.097977 global error: 0.097977 decryption: ∑∂T®UQ\ZHYI-P≥UIehePTF
+key: 77 local error: 0.079062 global error: 0.079062 decryption: WaR3fM}DHQNÆB
+key: 86 local error: 0.093049 global error: 0.093049 decryption: JkßEw˛ørL
+key: 124 local error: 0.092217 global error: 0.092217 decryption: óaC(êsñHfu
+key: 74 local error: 0.114891 global error: 0.114891 decryption: 8tec©x¶q/R¥∑fqAyn'k
+key: 83 local error: 0.073268 global error: 0.073268 decryption: fyYµaKnsYE}
+key: 73 local error: 0.079429 global error: 0.079429 decryption: TIZuRyEr
+key: 93 local error: 0.082583 global error: 0.082583 decryption: py\COYxiJwG NRhWOaZ∫cm
+key: 93 local error: 0.070871 global error: 0.070871 decryption: QXEpNBd\xΩ~EnjQvzSEeM
+key: 93 local error: 0.074997 global error: 0.074997 decryption: fE@¨\zheVYT"]LBIxZVsDMq∂tu
+key: 68 local error: 0.058203 global error: 0.058203 decryption: ENiOMbLikQaiYCN>LQk
+key: 76 local error: 0.099313 global error: 0.099313 decryption: guAM\miAØrqYas1R®¢nia
+key: 94 local error: 0.077374 global error: 0.077374 decryption: EysSBYxghps∞v\ªMOxuIÙ,µgZN
+key: 87 local error: 0.091481 global error: 0.091481 decryption: ∞VUBbwg
+key: 85 local error: 0.083518 global error: 0.083518 decryption: HiFuvRHl∂
+key: 75 local error: 0.067467 global error: 0.067467 decryption: bxaTwPCZ®uQnEyu>´W\tLYmYFv
+key: 79 local error: 0.061774 global error: 0.061774 decryption: nDz°UEzmazLvJXC
+key: 77 local error: 0.117610 global error: 0.117610 decryption: SuD∂QBbB∑∑°S
+key: 92 local error: 0.088412 global error: 0.088412 decryption: Ω•p≤RLHyHª∞OI
+key: 95 local error: 0.075925 global error: 0.075925 decryption: jyvATu
+key: 77 local error: 0.090280 global error: 0.090280 decryption: kCRAc
+key: 94 local error: 0.088886 global error: 0.088886 decryption: tJ°pl;∏ZY
+key: 71 local error: 0.097999 global error: 0.097999 decryption: E¢TGAq®WRWELKFGtÊå®qs\
+key: 79 local error: 0.090277 global error: 0.090277 decryption: T]SLuFL0bXHcbGXesmD¢
+key: 66 local error: 0.080644 global error: 0.080644 decryption: TQLTpBZ\hÁtdkH¶ØjMiNeWt
+key: 85 local error: 0.070683 global error: 0.070683 decryption: DpYµtLH±dFBVayrxHf
+key: 87 local error: 0.094127 global error: 0.094127 decryption: Apz	WyGU_"µtVPNGÆK≤OYos
+key: 69 local error: 0.085982 global error: 0.085982 decryption: HrwF
+key: 84 local error: 0.090048 global error: 0.090048 decryption: S∫µzJehBbee`wj
+key: 64 local error: 0.083533 global error: 0.083533 decryption: ßCiveltFpBA§sci[NaBoe
+key: 122 local error: 0.080880 global error: 0.080880 decryption: $c>k3v>38HYaHKr-GECgeOMûl QO
+key: 76 local error: 0.093707 global error: 0.093707 decryption: LFvj
+key: 89 local error: 0.079601 global error: 0.079601 decryption: eMJRºH~
+key: 88 local error: 0.086690 global error: 0.086690 decryption: H®oT
+key: 84 local error: 0.100360 global error: 0.100360 decryption: V∏T•yWwAOÚ®Søi\
+key: 66 local error: 0.098747 global error: 0.098747 decryption: Nke
+key: 119 local error: 0.080077 global error: 0.080077 decryption:  6T(risvﬂvKq!Püô#EW&cSJ#EydHZ
+key: 80 local error: 0.099585 global error: 0.099585 decryption: HFeO\XaΩs\F
+key: 75 local error: 0.077492 global error: 0.077492 decryption: fWuiM•LzG_NXSKMukB
+key: 89 local error: 0.103545 global error: 0.103545 decryption: æjEQORøÛCV}gRI∑Y1emEU
+key: 65 local error: 0.089139 global error: 0.089139 decryption: u£kYPLauo\Gm8EkKCocdb®
+key: 87 local error: 0.066792 global error: 0.066792 decryption: evsPFP∂	πQnJRNæpL3DgVHocGHY
+key: 89 local error: 0.086449 global error: 0.086449 decryption: u∑rljpr
+key: 69 local error: 0.073871 global error: 0.073871 decryption: RbnbjTH∞¨YO|U
+key: 84 local error: 0.079050 global error: 0.079050 decryption: óq∏kGxXpn±pIhY-E^SlretbA
+key: 83 local error: 0.070633 global error: 0.070633 decryption: E≤Ot^xRUG±zXX∏MAYifrWUh
+key: 71 local error: 0.088820 global error: 0.088820 decryption: vz\isnMoYØZG9VbboEp6sm
+key: 82 local error: 0.074827 global error: 0.074827 decryption: NXADlvsTOfJsDPr®QM(hZ†≤H
+key: 89 local error: 0.084807 global error: 0.084807 decryption: IDia[¨BUQ∂K
+key: 76 local error: 0.087626 global error: 0.087626 decryption: Fq_E®t
+key: 87 local error: 0.095922 global error: 0.095922 decryption: z^}N2rPWltN
+key: 121 local error: 0.083086 global error: 0.083086 decryption: íivüCze2Lí a<ùQ=et"yNjf%osH]O`
+key: 87 local error: 0.078599 global error: 0.078599 decryption: ñ∏ZNCisnrPıUMrLDp
+key: 92 local error: 0.101888 global error: 0.101888 decryption: RA\Y\e	"Xp≠XlJcWBjkPK@
+key: 64 local error: 0.098132 global error: 0.098132 decryption: >YeJUkµSJIØH®DØPY3dATA:
+key: 81 local error: 0.064340 global error: 0.064340 decryption: j†whQYelmScºqG6pNZKEBYSSZY≥
+key: 94 local error: 0.092016 global error: 0.092016 decryption: LlE?óTR®±TTRQI§<µf
+key: 65 local error: 0.085641 global error: 0.085641 decryption: mP\EATlk™Y¨
+key: 120 local error: 0.084165 global error: 0.084165 decryption: B;+PYl!CFN<T&f VK+OzQHKgYn|/
+key: 127 local error: 0.093739 global error: 0.093739 decryption: V DÖñXeóy%D;h+#A$rée,Jc,vjFRQ
+key: 86 local error: 0.077840 global error: 0.077840 decryption: QDx∂MAEHDutˇ
+key: 68 local error: 0.063592 global error: 0.063592 decryption: xLmEeMJ≥ka†∂dvp
+key: 64 local error: 0.100659 global error: 0.100659 decryption: R®\sHCÁYßas)J`CZKD∂urRY
+key: 91 local error: 0.085373 global error: 0.085373 decryption: Ufªd\	gØTrønoIUat}≠¯QpeW
+key: 119 local error: 0.076405 global error: 0.076405 decryption:  ÑF+Dìkx%CQTZq&N+bRP9F:unaL(oh
+key: 87 local error: 0.098975 global error: 0.098975 decryption: AuOpnæµj#∂∞Uj^\fc±zD1gSEY
+key: 94 local error: 0.088581 global error: 0.088581 decryption: }TXGkgC
+key: 72 local error: 0.098801 global error: 0.098801 decryption: jXKx®s
+key: 68 local error: 0.105425 global error: 0.105425 decryption: pAæ‚~h∫Q®v∫wØhcDpLUezB
+key: 82 local error: 0.066415 global error: 0.066415 decryption: FvACy{DS.uXT
+key: 82 local error: 0.081218 global error: 0.081218 decryption: wCKpiBXeNoL†lpe-ºaPzIG
+key: 90 local error: 0.072061 global error: 0.072061 decryption: ttmaWQAnVjTCNIT˙fystN	V
+key: 90 local error: 0.075144 global error: 0.075144 decryption: WveRTπt
+key: 115 local error: 0.069234 global error: 0.069234 decryption: jOcxWPorQ
+key: 100 local error: 0.077324 global error: 0.077324 decryption: Hs>u1Y/orf:AP|m
+key: 82 local error: 0.080337 global error: 0.080337 decryption: shE\°Z∂RIbRtmnRDnºRCgJ°h
+key: 70 local error: 0.085772 global error: 0.085772 decryption: V´u†FvT°UXP[haM
+key: 68 local error: 0.086286 global error: 0.086286 decryption: w¨Et∞L}pBnIG¢°AyIiQXLwsÊ
+key: 99 local error: 0.098501 global error: 0.098501 decryption: 6xÅkHv
+key: 53 local error: 0.048567 global error: 0.048567 decryption: Now that the party is jumping\
+key: 94 local error: 0.088429 global error: 0.088429 decryption: V:µkJO]˘FiYGnE≤	WdWw¥aFXP
+key: 119 local error: 0.095744 global error: 0.095744 decryption: ZN) cD.üyàådDqDùnîTp?c i-JêMh
+key: 80 local error: 0.088372 global error: 0.088372 decryption: ∑lMcXtl}nKgYiS≥ITLuK,T
+key: 93 local error: 0.059182 global error: 0.059182 decryption: raquzgOVrEiP
+key: 77 local error: 0.077476 global error: 0.077476 decryption: nyBtK}'ET
+key: 79 local error: 0.094000 global error: 0.094000 decryption: vix<EC4gnKAXFØgHZMPY
+key: 82 local error: 0.074055 global error: 0.074055 decryption: BYsgKWWtRJßC
+key: 76 local error: 0.063208 global error: 0.063208 decryption: u	eX¨nsQHE}pUsenRrWouQEAS
+key: 92 local error: 0.062759 global error: 0.062759 decryption: poHDewXIaegnyz≤bAGa4KkPT
+key: 85 local error: 0.085686 global error: 0.085686 decryption: óø\tuZN xFFZQ∑3pøoKbAkiqVX
+key: 77 local error: 0.079434 global error: 0.079434 decryption: £XOmT∫}rLCgwmTTtSWI• WxLT
+key: 76 local error: 0.093171 global error: 0.093171 decryption: Vß\TC¨LfOVIG\©Z
+key: 85 local error: 0.068316 global error: 0.068316 decryption: DtlKmIcU&spPAr~
+key: 92 local error: 0.083140 global error: 0.083140 decryption: BπjLvXkCrdsA_HKQwR±Xrø∑E
+key: 70 local error: 0.073589 global error: 0.073589 decryption: ™VR©y∑ajrNdLPqNRMhrHJX\æaB
+key: 70 local error: 0.075455 global error: 0.075455 decryption: a\r\aÊ`rNohpjfZBG
+key: 77 local error: 0.081939 global error: 0.081939 decryption: ØNa	DScmOrW1©DEheÆ"Biitq
+key: 69 local error: 0.084948 global error: 0.084948 decryption: qVIΩgzfM\V¢
+key: 73 local error: 0.090433 global error: 0.090433 decryption: ªHAE@aEd
+key: 121 local error: 0.086690 global error: 0.086690 decryption: eof
+key: 108 local error: 0.083466 global error: 0.083466 decryption: CVx@-9kVLchz
+key: 2 local error: 0.098998 global error: 0.098998 decryption: &EPÁ¯XL‡WRT
+key: 79 local error: 0.086293 global error: 0.086293 decryption: n{VhºwM}v(Hle´k•]pxR
+key: 88 local error: 0.082437 global error: 0.082437 decryption: πVDcEpPQGK
+key: 122 local error: 0.061701 global error: 0.061701 decryption: Ea NEy2HcAoF2UmCUxe%s)Sv69KQL
+key: 66 local error: 0.092866 global error: 0.092866 decryption: zRTX®2Cπijg∫Csonl1Lnrw
+key: 71 local error: 0.068878 global error: 0.068878 decryption: \BiXezMTayZj≠AUUQD|_OsDOn
+key: 76 local error: 0.072564 global error: 0.072564 decryption: Ne[TAK
+key: 111 local error: 0.090188 global error: 0.090188 decryption: ÉD.j E09i11ap9éQeAt@NXmaYUEçÀ
+key: 86 local error: 0.099378 global error: 0.099378 decryption: ^mb±J¸xUIpI	RgyaiEIa
+key: 78 local error: 0.068220 global error: 0.068220 decryption: BgYjßENT
+key: 69 local error: 0.091420 global error: 0.091420 decryption: °ntßZH™}Qeam
+key: 88 local error: 0.089605 global error: 0.089605 decryption: qZikmopK~c
+key: 68 local error: 0.110128 global error: 0.110128 decryption: †ZtY¶EH\Kkd\X•s
+key: 71 local error: 0.080301 global error: 0.080301 decryption: KGn	OZqenkJaUTßTsOÜ¥NAU
+key: 73 local error: 0.078177 global error: 0.078177 decryption: OdgKo=MmV
+key: 84 local error: 0.082941 global error: 0.082941 decryption: fmTµNUtNQ0R•UkagMS?YUzp
+key: 80 local error: 0.077312 global error: 0.077312 decryption: zK∏^pCErkNpbJSx\qJAit∏§JO
+key: 116 local error: 0.087811 global error: 0.087811 decryption: SmNñDV|ìDdû’]Tup#CuJdê
+key: 95 local error: 0.081050 global error: 0.081050 decryption: DLµ∞OaBlUKl%u]CIn≤X∏OS+eQj
+key: 93 local error: 0.083529 global error: 0.083529 decryption: GT\LtfAPµyEøºpuFomy
+key: 64 local error: 0.085191 global error: 0.085191 decryption: ßvNkx`jif∫	sB≠F\R:Wtz_QCk
+key: 80 local error: 0.072611 global error: 0.072611 decryption: V∏©ZaHhLDE-DdUR@fn`
+key: 84 local error: 0.080524 global error: 0.080524 decryption: dVMe£MjqÙ
+key: 65 local error: 0.062071 global error: 0.062071 decryption: TZMeDlOCExOxH¨≠LBFNEMæ0Idw
+key: 70 local error: 0.047822 global error: 0.047822 decryption: lenTMdEtNVUJLHµMc
+key: 93 local error: 0.078025 global error: 0.078025 decryption: ºpT∞aIKH@A	Uvce
+key: 86 local error: 0.085026 global error: 0.085026 decryption: Cf\lO|WYR∫GVLk
+key: 92 local error: 0.086038 global error: 0.086038 decryption: KppIfn|U
+key: 69 local error: 0.070999 global error: 0.070999 decryption: iqßnH¥VnVMEHBff|ÁLozQnODR
+key: 88 local error: 0.080625 global error: 0.080625 decryption: Qivub≤EZ
+key: 71 local error: 0.093920 global error: 0.093920 decryption: ENdgQxZMqÓeo™b\]w\≠ØDupJ
+key: 89 local error: 0.104414 global error: 0.104414 decryption: MaWz
+key: 87 local error: 0.094930 global error: 0.094930 decryption: r¥bZkBDY∫K™OEΩ•Qh_\9vEKcx
+key: 88 local error: 0.077758 global error: 0.077758 decryption: o	cuRf\IorbYk	[TfoqTUVJz
+key: 80 local error: 0.099271 global error: 0.099271 decryption: CG°BQh±¢X\hTOt\Xm∂Boas
+key: 95 local error: 0.062416 global error: 0.062416 decryption: RæFiYrbpMFaL
+key: 66 local error: 0.078781 global error: 0.078781 decryption: fX¨Z@sTSÁO´bK´teCJcN
+key: 99 local error: 0.095768 global error: 0.095768 decryption: aÇ.H»çC)? Tp;BUnaxRS:
+key: 98 local error: 0.062999 global error: 0.062999 decryption: wpUs{gnns F8b-aT2*zRAh{Gj>xuED
+key: 75 local error: 0.082644 global error: 0.082644 decryption: p≠dhA
+key: 126 local error: 0.073280 global error: 0.073280 decryption:  )åOMBCr9t9+iM/nOHTEìqM4AOHn<N
+key: 86 local error: 0.071539 global error: 0.071539 decryption: ΩrWSLCIrSPLaºqkto®Tlg
+key: 41 local error: 0.102142 global error: 0.102142 decryption: \+vht
+key: 87 local error: 0.095862 global error: 0.095862 decryption: ∑TzºlAi¸øYySCH
+key: 95 local error: 0.103536 global error: 0.103536 decryption: B∑fTy
+key: 93 local error: 0.093359 global error: 0.093359 decryption: ∏Jcyq(fz
+key: 77 local error: 0.078188 global error: 0.078188 decryption: c•Ωn\QDuvE
+key: 81 local error: 0.090050 global error: 0.090050 decryption: nSGOEjE\Ox\LwRˆTfmrC
+key: 72 local error: 0.090472 global error: 0.090472 decryption: EÓAVHÆev[EHqªqHRs
+key: 75 local error: 0.098454 global error: 0.098454 decryption: TuAFßpc®b+ØfD•Ilc^
+key: 88 local error: 0.086686 global error: 0.086686 decryption: ≤fiCWzSGCqL©yI¨JK∏:jz≠¥YLU
+key: 86 local error: 0.093035 global error: 0.093035 decryption: viHW≥
+key: 29 local error: 0.116464 global error: 0.116464 decryption: "FÛ><e%E6¯DEΩX;FÒKOFAQ0I
+key: 76 local error: 0.100661 global error: 0.100661 decryption: ™´T©zNZB	{leß´k†seAcMM
+key: 80 local error: 0.077519 global error: 0.077519 decryption: X∑E∂BhZIXx\BrWjRlyWhTod
+key: 74 local error: 0.068945 global error: 0.068945 decryption: [Zrao~qÏCkytg"tTbHmB
+key: 78 local error: 0.109194 global error: 0.109194 decryption: jAB≠πW lµOKz1zQz∫wlGX
+key: 67 local error: 0.104306 global error: 0.104306 decryption: a§¥πlmF=iAnØrwzÈQewªYV
+key: 92 local error: 0.091131 global error: 0.091131 decryption: OeD\Øk˚s∞ZQæe˙Jf	evlcYHI
+key: 76 local error: 0.078240 global error: 0.078240 decryption: ECTNvgZÆzKIA≠XDdQvÔ§
+key: 72 local error: 0.099957 global error: 0.099957 decryption: _m±B§X•aveim∏mRqThJjy
+key: 94 local error: 0.095558 global error: 0.095558 decryption: wsa¶4FX~Yl
+key: 93 local error: 0.094354 global error: 0.094354 decryption: J£eUØTxCNx1ævlC
+key: 79 local error: 0.077824 global error: 0.077824 decryption: (wU¥>gZEO´Xrn^ZFbizxEuoWi
+key: 120 local error: 0.077331 global error: 0.077331 decryption: ûUzeNòCX%'gQ$q>pLR9YZ GCÑLasûT
+key: 74 local error: 0.092478 global error: 0.092478 decryption: spOLG
+key: 88 local error: 0.081197 global error: 0.081197 decryption: mtds
+key: 91 local error: 0.060158 global error: 0.060158 decryption: tIBZ\ΩTJNPKErmm@E^eS£dxUwca
+key: 92 local error: 0.090689 global error: 0.090689 decryption: ≥AzL¥hoS
+key: 86 local error: 0.078067 global error: 0.078067 decryption: HhtaR®KxIq≥YCA]uMbøfI
+key: 102 local error: 0.076526 global error: 0.076526 decryption: VkTA?åeQg:
+key: 82 local error: 0.079321 global error: 0.079321 decryption: eeuΩMZY^SeziAeP8∏N≥GT®JfP
+key: 90 local error: 0.074378 global error: 0.074378 decryption: SOqKªyd
+key: 73 local error: 0.092650 global error: 0.092650 decryption: TøT∏ovßZZ	@\tuQrKBTde
+key: 68 local error: 0.092760 global error: 0.092760 decryption: ¶DHE©ßHLjas
+key: 76 local error: 0.057595 global error: 0.057595 decryption: UnThlUWerZqNGL	JmIVt§GEF\r•
+key: 94 local error: 0.087153 global error: 0.087153 decryption: gasZrQªMG≤QKQld
+key: 67 local error: 0.073642 global error: 0.073642 decryption: ctcIhSP8v∏	Lqol\
+key: 80 local error: 0.091538 global error: 0.091538 decryption: '\JdkeznGæjm\EfCvsTIr
+key: 71 local error: 0.073793 global error: 0.073793 decryption: rUyMZe¨Gma]hCiRÆhLsODkr
+key: 79 local error: 0.083463 global error: 0.083463 decryption: bvlnEW¢
+key: 84 local error: 0.076925 global error: 0.076925 decryption: lOzrc¢hHwEXyHvPFΩDR\XPs
+key: 90 local error: 0.094829 global error: 0.094829 decryption: RFªøoQ0oo™ºtnhnTb™R∫hXæ
+key: 69 local error: 0.072677 global error: 0.072677 decryption: uAI]SPskUSSOE+ÆXagpzUm∫\oB
+key: 81 local error: 0.083412 global error: 0.083412 decryption: ßdCH%u\E°sBbNiIAAEyFtµc
+key: 78 local error: 0.063112 global error: 0.063112 decryption: TbHycZW:oJckNrhfz°X´SVqAKF
+key: 65 local error: 0.079067 global error: 0.079067 decryption: |XPFdPAØo
+key: 75 local error: 0.095715 global error: 0.095715 decryption: tffßiE\EV¨Spwer	nGhN
+key: 90 local error: 0.066474 global error: 0.066474 decryption: nbZDpZwK`Eªa∑woR∏uxxNkHFOc
+key: 40 local error: 0.096688 global error: 0.096688 decryption: ≈lru
+key: 88 local error: 0.078695 global error: 0.078695 decryption: yLa§idFp
+key: 74 local error: 0.094456 global error: 0.094456 decryption: ZdVwz§K<Sn¨e∏]yO´CZakob∂
+key: 88 local error: 0.072116 global error: 0.072116 decryption: OBgYWna]7søDx
+key: 76 local error: 0.071791 global error: 0.071791 decryption: edAÆtDPebL´Sw}RS\Etqt.jNt
+key: 84 local error: 0.100721 global error: 0.100721 decryption: bK∏∫FUc6øbsLqM
+key: 82 local error: 0.085090 global error: 0.085090 decryption: ¥C\Tf∂RudC∂NjnjF)oqdyZvf	
+key: 65 local error: 0.083375 global error: 0.083375 decryption: QvGvoCw™rB£WOiyvhxÎnau
+key: 92 local error: 0.054165 global error: 0.054165 decryption: rNspASCKRP\oCPZuJLh
+key: 73 local error: 0.071596 global error: 0.071596 decryption: UbALoZs¢wjT≥WL3cHC
+key: 66 local error: 0.085979 global error: 0.085979 decryption: zx£PußBkTol_|K`XTL
+key: 85 local error: 0.082831 global error: 0.082831 decryption: heq¶	RønMDXoElnsgai¶Y˜≥S
+key: 95 local error: 0.062626 global error: 0.062626 decryption: ypNCQJEzNDG
+key: 72 local error: 0.078466 global error: 0.078466 decryption: eI¶nYveËC°nE,tX\vUW\AsEG5J
+key: 76 local error: 0.059855 global error: 0.059855 decryption: zmSmHIReCW
+key: 68 local error: 0.091601 global error: 0.091601 decryption: AzzQoo
+key: 75 local error: 0.080953 global error: 0.080953 decryption: &r\mtHG
+key: 123 local error: 0.073701 global error: 0.073701 decryption: eJHXI5%l
+key: 79 local error: 0.073519 global error: 0.073519 decryption: V_´∏jpENoØtQt\Nydm
+key: 71 local error: 0.080791 global error: 0.080791 decryption: gKYLci|
+key: 100 local error: 0.062798 global error: 0.062798 decryption: cSÑroywwD liGAïîäKdQ+Eb#uUfn9o
+key: 110 local error: 0.071045 global error: 0.071045 decryption: QOhcàBkDy9
+key: 93 local error: 0.068578 global error: 0.068578 decryption: FeGLhB
+key: 70 local error: 0.079207 global error: 0.079207 decryption: ´≥eRßWf:Me≠i[gYv'qSbABHNL>x
+key: 100 local error: 0.088694 global error: 0.088694 decryption: Xa*I*MaC:
+key: 71 local error: 0.090551 global error: 0.090551 decryption: toPtQ≠hzæ•EDAFN∞h™©WjvS
+key: 68 local error: 0.083138 global error: 0.083138 decryption: AgYGu|bRUH
+key: 94 local error: 0.093234 global error: 0.093234 decryption: fU´do©yrMa∂µo∞gZS±ZRDT∑JΩ≥
+key: 72 local error: 0.075341 global error: 0.075341 decryption: H∏iWBAVMfj∏nfD´mUmXCXcY´q
+key: 81 local error: 0.081742 global error: 0.081742 decryption: gThd°
+key: 9 local error: 0.100309 global error: 0.100309 decryption: Y-K)kÈPMYUAXLIMRTÈR
+key: 94 local error: 0.101555 global error: 0.101555 decryption: TOK\1dkraUL©^j˚C
+key: 56 local error: 0.089721 global error: 0.089721 decryption: n#=oxgkro~
+key: 82 local error: 0.086853 global error: 0.086853 decryption: 4\•sPJC]RTu
+key: 86 local error: 0.059742 global error: 0.059742 decryption: Xwsjt¶xM_ecEBQMCEugsZNDVr˜
+key: 91 local error: 0.081302 global error: 0.081302 decryption: ªnfEj,lhCxMoGR∏KocKB†PI°
+key: 102 local error: 0.098498 global error: 0.098498 decryption: QàÄ2'h&a6yJh$úìgCa=M p)p<veon
+key: 88 local error: 0.099193 global error: 0.099193 decryption: rjL
+key: 71 local error: 0.086920 global error: 0.086920 decryption: zlAbXZhVNV°D
+key: 116 local error: 0.081241 global error: 0.081241 decryption: kYK(ExE vTtdñ5A-PAÉo24 ~pdföoK
+key: 65 local error: 0.064637 global error: 0.064637 decryption: aQGOnEJwXn8YZFsYzgQyuAsµu
+key: 65 local error: 0.080360 global error: 0.080360 decryption: {uJß¥ptPhSxtBsNGOfztaI
+key: 120 local error: 0.090255 global error: 0.090255 decryption: d!%`MAZvîjL
+key: 79 local error: 0.089304 global error: 0.089304 decryption: Jp† ´∫EHgYOoDi	EausweC
+key: 115 local error: 0.099344 global error: 0.099344 decryption: ?ti$öFófcO/ ë'uLSjGzêy]Kn(V&
+key: 92 local error: 0.081875 global error: 0.081875 decryption: nXsAp<%h±DPLtO6wzUrgpul
+answer: key: 70 error: 0.047822 decryption: lenTMdEtNVUJLHµMc

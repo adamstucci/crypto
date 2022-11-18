@@ -38,7 +38,8 @@ struct distribution letter_distribution = {.numSymbols = 26,
                                                 };
 
 
-char *crack_xor(unsigned char *binary, int bin_len, unsigned char *ret_best_key) {
+// if i got all these return this, should maybe be returning a struct
+char *crack_xor(unsigned char *binary, int bin_len, double (*error_func)(struct distribution *dist1, struct distribution *dist2) ,unsigned char *ret_best_key, double *ret_best_error, char log) {
     double best_error = 110; //normalised mean error can't exceed 100
     unsigned char best_key = 0;
 
@@ -54,7 +55,7 @@ char *crack_xor(unsigned char *binary, int bin_len, unsigned char *ret_best_key)
         // double error = normalised_mean_absolute_error(&letter_distribution, decoded_dist);
         double error = normalised_rmse(&letter_distribution, decoded_dist);
 
-        printf("key: %u error: %f decoded: %s\n", key, error, transform_break(decoded_str));
+        if (log) printf("key: %u error: %f decoded: %s\n", key, error, transform_break(decoded_str));
 
         if (error < best_error) {
             best_key = key;
@@ -75,6 +76,7 @@ char *crack_xor(unsigned char *binary, int bin_len, unsigned char *ret_best_key)
     // free(decoded_binary);
 
     *ret_best_key = best_key;
+    *ret_best_error = best_error;
 
     return decoded_str;
 }

@@ -5,6 +5,6 @@
 
 extern struct distribution letter_distribution;
 
-char *crack_xor(unsigned char *binary, int bin_len, unsigned char *ret_best_key);
+char *crack_xor(unsigned char *binary, int bin_len, unsigned char *ret_best_key, double *ret_best_error);
 
 #endif

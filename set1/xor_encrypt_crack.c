@@ -27,8 +27,8 @@ int main(int argc, char const *argv[])
     // char *encrypted_hex_str = bin2HexString
 
     unsigned char found_key;
-
-    char *decrypted_str = crack_xor(encrypted_binary, bin_len, &found_key);
+    double error;
+    char *decrypted_str = crack_xor(encrypted_binary, bin_len, &found_key, &error);
 
     printf("most likely decryption: %s\n", decrypted_str);
     
