@@ -18,6 +18,13 @@ void chomp(char *str) {
 	if (str[len-1] == '\n') str[len-1] = '\0'; //chomp
 }
 
+char *transform_break(char *str) {
+	for (int i = 0; str[i] != '\0'; i++) {
+		if (str[i] == '\n' || str[i] == '\r') str[i] = '\\';
+	}
+	return str;
+}
+
 unsigned char sym2num(char c) {
 	if (c >= 'A' && c <= 'Z') return c - 'A' + 10;
 	if (c >= 'a' && c <= 'z') return c - 'a' + 10;

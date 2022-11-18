@@ -12,6 +12,7 @@ struct distribution *new_empty_dist(unsigned int numSymbols) {
 
     new->numSymbols = numSymbols;
     new->totalObservations = 0;
+    new->totalOutOfRange = 0;
     new ->frequencies = malloc(sizeof(unsigned int) * numSymbols);
     assert(new->frequencies != NULL);
 
@@ -52,12 +53,14 @@ struct distribution *new_dist(unsigned int *frequencies, unsigned int numSymbols
     }
 
     new->totalObservations = totalObservations;
+    new->totalOutOfRange = 0;
 
     return new;
 }
 
 void add_observation(struct distribution * dist, unsigned int symbol) {
-    dist->frequencies[symbol] += 1;
+    if (symbol < dist->numSymbols) dist->frequencies[symbol] += 1;
+    else dist->totalOutOfRange += 1;
     dist->totalObservations += 1;
 }
 
@@ -72,7 +75,32 @@ double normalised_mean_absolute_error(struct distribution *dist1, struct distrib
         sum_of_abs += fabs(percentage1 - percentage2);
     }
 
-    return sum_of_abs / num_symbols;
+    double percentage1 = (double) dist1->totalOutOfRange / dist1->totalObservations;
+    double percentage2 = (double) dist2->totalOutOfRange / dist2->totalObservations;
+
+    sum_of_abs += fabs(percentage1 - percentage2);
+
+    return sum_of_abs / (num_symbols + 1); //+1 for the extra out of range category
+}
+
+double normalised_rmse(struct distribution *dist1, struct distribution *dist2) {
+    double sum_of_squares = 0;
+    unsigned int num_symbols = dist1->numSymbols;
+
+    for (int i = 0; i < num_symbols; i++) {
+        double percentage1 = (double) dist1->frequencies[i] / dist1->totalObservations;
+        double percentage2 = (double) dist2->frequencies[i] / dist2->totalObservations;
+
+        sum_of_squares += (percentage1 - percentage2) * (percentage1 - percentage2);
+    }
+
+    double percentage1 = (double) dist1->totalOutOfRange / dist1->totalObservations; //why create a separate field instead of adding element to array...todo change
+    double percentage2 = (double) dist2->totalOutOfRange / dist2->totalObservations;
+
+    sum_of_squares += (percentage1 - percentage2) * (percentage1 - percentage2);
+
+    return sqrt(sum_of_squares / (num_symbols + 1)); //+1 for extra out of range category
+    
 }
 
 double mean_absolute_error(struct distribution *dist1, struct distribution *dist2) {
@@ -111,6 +139,14 @@ struct distribution *generate_letter_distribution(char *str) {
         if (isalpha(str[i])) {
             unsigned int symbol = str[i] >= 'A' && str[i] <= 'Z' ? str[i] - 'A' : str[i] - 'a';
             add_observation(dist, symbol);
+        }
+        else {
+            // for some reason, adding this ruined my challenge 3. I would have though the results would be more accurate
+            // without this...the answer has an error which is much closer to the other ones
+            // with it the error is closer to fewer but we get the wrong answer...a bit coincidental maybe
+            // want a stronger statistcal test maybe
+            // look at bigrams....either way I think this needs to be in the code
+            add_observation(dist, 27); //wasn't addding non alphabetical characters to the distribution...making it biased
         }
     }
 

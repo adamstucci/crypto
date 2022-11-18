@@ -22,6 +22,7 @@ char *bin2HexString(unsigned char *binary, int len);
 /// @brief chomps the given string in place
 /// @param str 
 void chomp(char *str);
+char *transform_break(char *str);
 
 unsigned char *bin_xor_key(unsigned char *bin, int bin_len, unsigned char key, char in_place);
 char *bin2AlphaString(unsigned char *binary, int len);

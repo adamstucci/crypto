@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 
 #include "bitlib.h"
@@ -50,7 +51,10 @@ char *crack_xor(unsigned char *binary, int bin_len, unsigned char *ret_best_key)
 
         struct distribution *decoded_dist = generate_letter_distribution(decoded_str);
 
-        double error = normalised_mean_absolute_error(&letter_distribution, decoded_dist);
+        // double error = normalised_mean_absolute_error(&letter_distribution, decoded_dist);
+        double error = normalised_rmse(&letter_distribution, decoded_dist);
+
+        printf("key: %u error: %f decoded: %s\n", key, error, transform_break(decoded_str));
 
         if (error < best_error) {
             best_key = key;

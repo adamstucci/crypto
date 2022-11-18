@@ -16,6 +16,7 @@ double mean_absolute_error(struct distribution *dist1, struct distribution *dist
 /// @return the mean absolute error
 double mean_absolute_error(struct distribution *dist1, struct distribution *dist2);
 double normalised_mean_absolute_error(struct distribution *dist1, struct distribution *dist2);
+double normalised_rmse(struct distribution *dist1, struct distribution *dist2);
 void destroy_dist(struct distribution *dist);
 struct distribution *generate_letter_distribution(char *str);
 
